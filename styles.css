@@ -1,0 +1,68 @@
+h1 {
+    color: red;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 32px auto;
+    padding: 5px;
+    transition: 1s;
+}
+.card:hover {
+    background-color: rgb(100, 18, 233);
+    transform: scale(1.5);
+}
+
+.qatar-2022, .russia-2018, .brazil-2014, .south-africa-2010, .germany-2006, .korea-japan-2002 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.flags {
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+.flags:hover {
+    transform: scale(1.2);
+}
+.countries {
+    overflow: visible;
+}
+.hidden {
+    display: none;
+}
+.playercard {
+    z-index: 1;
+    position: fixed;
+    background: red;
+    height: 715px;
+    width: 505px;
+    top: 10px;
+    left: 460px;
+    right: 100px;
+    bottom: 0px;
+    border-radius: 10px;
+
+}
+.nextButton {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: grey;
+}
+
+.closeButton {
+    position: fixed;
+    background: grey;
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    left: 1300px;
+    border-radius: 25px;
+}
+/* overlaying divs: put parent div as relative, and child as absolute.
