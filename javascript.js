@@ -38,9 +38,9 @@ function switchingWorldCup () {
     previousWorldCup = currentWorldCup;
 }
 function showCard(event){
-    console.log(event);
+    console.log(event)
     event.preventDefault();
-    if (flagClicked === true){
+    if (flagClicked === true || event.target.className != "flags"){
         return null;
     } else {
         //creatingNextButton();

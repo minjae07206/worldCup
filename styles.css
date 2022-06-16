@@ -21,6 +21,7 @@ h1 {
     position: relative;
 }
 .flags {
+    background: purple;
     border-radius: 10px;
     width: 300px;
     height: 200px;
